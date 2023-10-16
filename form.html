@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <h1>Phiếu Đặt Phòng</h1>
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+
+            <form>
+                <div class="input">
+                    <label for="fname"><b>Họ tên*</b></label><br>
+                    <input type="text" id="fname" name="fname"><br> <br>
+
+                    <label for="adress"><b>Địa chỉ</b></label><br>
+                    <input type="text" id="adress" name="adress"><br> <br>
+
+                    <label for="Id"><b>Số chứng nhân dân*</b></label><br>
+                    <input type="text" id="Id" name="Id"><br> <br>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <label for="price"><b>Mức giá</b></label><br>
+                        <select id="price" name="cars">
+                            <option value="loại thường">loại thường</option>
+                            <option value="loại vip">loại vip</option>
+                        </select>
+                    </div>
+
+                    <div class="col">
+                        <label for="room"><b>Loại phòng</b></label><br>
+                        <select id="room" name="room">
+                            <option value="phòng đơn">phòng đơn</option>
+                            <option value="phòng đôi">phòng đôi</option>
+                            <option value="phòng 3 giường">phòng 3 giường</option>
+                        </select>
+                    </div>
+                </div>
+
+                <br>
+
+                <label for="time"><b>Thời gian thuê</b></label><br>
+                <select id="time" name="time">
+                    <option value="[Chọn thời gian cho thuê]">[Chọn thời gian cho thuê]</option>
+                    <option value="1 giờ">1 giờ</option>
+                    <option value="2 giờ">2 giờ</option>
+                    <option value="qua đêm">qua đêm</option>
+
+                </select>
+
+                <br><br>
+
+                <div class="row">
+                    <div class="col">
+                        <label for="date"><b>Ngày thuê</b></label>
+                        <br>
+                        <div class="month">
+                            <input type="text">
+                            <span>/</span>
+                            <p>MM</p>
+                        </div>
+
+                        <div class="day">
+                            <input type="text">
+                            <span>/</span>
+                            <p>DD</p>
+                        </div>
+                        <div class="year">
+                            <input type="text">
+                            <p>YYYY</p>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <label for="date"><b>Ngày trả</b></label>
+                        <br>
+                        <div class="month">
+                            <input type="text">
+                            <span>/</span>
+                            <p>MM</p>
+                        </div>
+
+                        <div class="day">
+                            <input type="text">
+                            <span>/</span>
+                            <p>DD</p>
+                        </div>
+                        <div class="year">
+                            <input type="text">
+                            <p>YYYY</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service">
+                    <label for="service"><b>Dịch vụ đi kèm</b></label>
+                    <br>
+                    <input type="checkbox" id="breakfast" name="breakfast" value="eat">
+                    <label for="breakfast"> Ăn sáng</label><br>
+                    <input type="checkbox" id="clean" name="clean" value="work">
+                    <label for="clean"> Giặt ủi</label><br>
+                    <input type="checkbox" id="megazines" name="megazines" value="read">
+                    <label for="megazines"> Báo buổi sáng</label><br><br>
+                </div>
+                <div class="row">
+                    <div class="prices col">
+                        <label for="prices"><b>Đơn giá một ngày *</b></label>
+                        <br>
+                        <input type="text" id="prices" name="prices">
+                        
+                    </div>
+                    <div class="col">
+                        <br>
+                        <label for="prices"> VNĐ</label><br>
+                    </div>
+                </div>
+
+                <div class="cal">
+                    <button>Tính đơn giá</button>
+                </div>
+
+                <div class="sub">
+                    <button>Đăng ký</button>
+                </div>
+                
+            </form>
+        </div>
+        <div class="col-3"></div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+}
+
+.input input {
+    width: 450px;
+}
+
+.input {
+    margin-top: 1cm;
+}
+
+.col select {
+    width: 300px;
+}
+
+.month input, .day input {
+    width: 25px;
+}
+
+.year input {
+    width: 40px;
+}
+
+.month, .day, .year {
+    margin-top: 1px;
+    display: inline-block;
+}
+
+.service input {
+    margin-top: 15px;
+}
+
+.prices input {
+    width: 100%;
+}
+
+
+.cal, .sub {
+    margin-top: 1em;
+    display: inline-block;
+}
